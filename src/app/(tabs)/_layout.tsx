@@ -7,7 +7,8 @@ export default function TabLayouts() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Reddit",
+          title: "Home",
+          headerTitle: "Reddit",
           headerTintColor: "#ff5700",
           headerTitleAlign: "center",
           tabBarIcon: ({ color }) => (
